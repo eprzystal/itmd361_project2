@@ -156,6 +156,7 @@ img {
     max-width: 100%;  
     height: auto;  
     position: relative;
+    margin: auto;
 }  
 
 
@@ -173,16 +174,16 @@ h4 {
     font-style: normal;
     font-size: 1.15em;    
     color: #58595B;
-    margin: auto;
+    margin: 0 auto;
 }
 
 h2 {
     font-family: brandon-grotesque, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.5em;    
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.25em;    
     color: #58595B;
-    background-color: white;
+    background-color: #D9C2B2;
     text-align: center;
 }
 
@@ -218,9 +219,10 @@ h2 {
 #left-sidebar {	
     background-color: #D9C2B2;
 	float: left;
-	width: 45.75%;
+	width: 46%;
 	height: 400px;
     padding: 10px;
+    margin: auto;
     }
     
 #left-sidebar li {
@@ -236,10 +238,10 @@ h2 {
 #right-sidebar {	
     background-color: lightgray;
 	float: right;
-    margin-right: 10.35px;
-	width: 49%;
+	width: 48.5%;
 	height: 400px;
     padding: 10px;
+    margin-right: 8.5px;
     }
     
 #right-sidebar li {
