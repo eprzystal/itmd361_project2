@@ -179,12 +179,13 @@ h4 {
 
 h2 {
     font-family: brandon-grotesque, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: italic;
-    font-size: 1.25em;    
+    font-size: 1.15em;    
     color: #58595B;
     background-color: #D9C2B2;
     text-align: center;
+    padding: 20px;
 }
 
 #nav-third {
