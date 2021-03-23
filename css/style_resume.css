@@ -163,8 +163,15 @@ p {
     display: inline-block;
     text-align: center;
     background-color: #D9C2B2;
+}
 
-    }
+#profile h3{
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    padding-left: 20px;
+}
 
 #profile {
     background-color: white;
@@ -174,8 +181,6 @@ p {
     text-align: center;
     width: 99.25%;
     color: #58595B; 
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 #education ul li{
