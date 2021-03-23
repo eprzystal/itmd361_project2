@@ -1,0 +1,323 @@
+/* Fonts */
+
+@font face: Brandon Grotesque Black {
+font-family: brandon-grotesque, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+@font face:Brandon Grotesque Regular Italic {
+font-family: brandon-grotesque, sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+
+@font face:Brandon Grotesque Bold {
+font-family: brandon-grotesque, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+@font face: Brandon Grotesque Bold Italic {
+font-family: brandon-grotesque, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+@font face: Brandon Grotesque Thin {
+font-family: brandon-grotesque, sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+@font face: Brandon Grotesque Thin Italic {
+font-family: brandon-grotesque, sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+
+@font face: Brandon Grotesque Light {
+font-family: brandon-grotesque, sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+@font face: Brandon Grotesque Light Italic {
+font-family: brandon-grotesque, sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+@font face: Brandon Grotesque Medium {
+font-family: brandon-grotesque, sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+@font face: Grotesque Medium Italic {
+font-family: brandon-grotesque, sans-serif;
+font-weight: 500;
+font-style: italic; 
+}
+
+
+body {
+    background-color:  #58595B;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+    position: relative;
+    }
+
+#main-header {
+	background-color: #58595B;
+    height: 150px;
+}
+
+#name {
+    font-size: 2.75em;
+    color: #D9C2B2;
+    display: inline-block;
+    text-align: left; 
+    padding-top: 30px;
+}
+
+#nav-links {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.5em;
+	list-style-type: none;
+	width: 100%;
+    margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;    
+}
+
+#nav-links li {
+	float: left;
+}
+
+#nav-links li::before {
+	content: "::";
+	color: #fff;
+}
+
+#nav-links li:first-child::before {
+	content: "";
+}
+
+#nav-links li a {
+	color: #fff;
+    font-size: 0.8em;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+#nav-links li a:hover {
+	text-decoration: overline;
+}
+
+#nav-links li::before {
+	content: "::";
+	color: #fff;
+}
+
+#nav-links li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+#nav-second {
+    font-family: brandon-grotesque, sans-serif;
+    color: #58595B;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    }
+    
+.graphic {
+    background-color: #D9C2B2;
+}
+
+.graphic h1  {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+    background-color: #D9C2B2;
+    padding: 20px;
+    box-align: top;
+    margin-top: -10px;
+  }
+  
+.graphic p {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.25em;
+    color: #58595B;
+    text-decoration: none;
+    background-color: #D9C2B2;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+#nav-third {
+    font-family: brandon-grotesque, sans-serif;
+    color: #58595B;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    }
+    
+.environmental {
+    background-color: #D9C2B2;
+    position: relative;
+}
+
+.environmental h1  {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+    background-color: #D9C2B2;
+    padding: 20px;
+    box-align: top;
+    margin-top: -10px;
+  }
+  
+.environmental p {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.25em;
+    color: #58595B;
+    text-decoration: none;
+    background-color: #D9C2B2;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+#nav-forth {
+    font-family: brandon-grotesque, sans-serif;
+    color: #58595B;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    }
+    
+.structural {
+    background-color: #D9C2B2;
+    position: relative;
+}
+
+.structural h1  {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+    background-color: #D9C2B2;
+    padding: 20px;
+    box-align: top;
+    margin-top: -10px;
+  }
+  
+.structural p {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.25em;
+    color: #58595B;
+    text-decoration: none;
+    background-color: #D9C2B2;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+#nav-fifth {
+    font-family: brandon-grotesque, sans-serif;
+    color: #58595B;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    }
+    
+.art-direction {
+    background-color: #D9C2B2;
+    position: relative;
+}
+
+.art-direction h1  {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+    background-color: #D9C2B2;
+    padding: 20px;
+    box-align: top;
+    margin-top: -10px;
+  }
+  
+.art-direction p {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.25em;
+    color: #58595B;
+    text-decoration: none;
+    background-color: #D9C2B2;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+#nav-sixth {
+    font-family: brandon-grotesque, sans-serif;
+    color: #58595B;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    width: 98%;
+    }
+    
+.interior-design {
+    background-color: #D9C2B2;
+    position: relative;
+}
+
+.interior-design h1  {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+    background-color: #D9C2B2;
+    padding: 20px;
+    box-align: top;
+    margin-top: -10px;
+  }
+  
+.interior-design p {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.25em;
+    color: #58595B;
+    text-decoration: none;
+    background-color: #D9C2B2;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+
+
