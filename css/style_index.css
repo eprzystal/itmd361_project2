@@ -157,8 +157,7 @@ img {
     height: auto;  
     position: relative;
     margin: auto;
-}  
-
+} 
 
 p {
     font-family: brandon-grotesque, sans-serif;
@@ -182,9 +181,12 @@ h2 {
     font-weight: 500;
     font-style: italic;
     font-size: 1.15em;    
-    color: #58595B;
-    background-color: #D9C2B2;
+    color: #D9C2B2;
+    background-color: #58595B;
     text-align: center;
+    width: 150%;
+    margin-right: -50px;
+    margin-left: -250px;
     padding: 20px;
 }
 
@@ -197,7 +199,7 @@ h2 {
     text-align: center;
     background-color: white;
     padding: 10px;
-    }
+}
 
 #nav-forth {
     font-family: brandon-grotesque, sans-serif;
@@ -208,13 +210,13 @@ h2 {
     text-align: center;
     background-color: white;
     padding: 10px;
-    }
+}
     
 #aside {
 	width: 960px;
 	margin: 0 auto;
     position: relative;
-    }
+}
 
     
 #left-sidebar {	
@@ -224,7 +226,7 @@ h2 {
 	height: 400px;
     padding: 10px;
     margin: auto;
-    }
+}
     
 #left-sidebar li {
     font-family: brandon-grotesque, sans-serif;
@@ -243,7 +245,7 @@ h2 {
 	height: 400px;
     padding: 10px;
     margin-right: 8.5px;
-    }
+}
     
 #right-sidebar li {
     font-family: brandon-grotesque, sans-serif;
