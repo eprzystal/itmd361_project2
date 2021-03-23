@@ -147,17 +147,23 @@ p {
     margin: auto;
 }
 
+#nav-second h2{
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+
 #nav-second {
     font-family: brandon-grotesque, sans-serif;
     font-size: 1.75em;
     text-height: 1em;
     color: #58595B;
-    width: 97.15%;
+    width: 99.25%;
     display: inline-block;
     text-align: center;
     background-color: #D9C2B2;
-    padding: 10px;
-    padding-bottom: 10px;
+
     }
 
 #profile {
