@@ -78,9 +78,6 @@ body {
 }
 
 #name {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 500;
-    font-style: normal;
     font-size: 2.75em;
     color: #D9C2B2;
     display: inline-block;
@@ -161,12 +158,6 @@ img {
     position: relative;
 }  
 
-h1 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.25em;    
-}
 
 p {
     font-family: brandon-grotesque, sans-serif;
@@ -178,15 +169,16 @@ p {
 
 h4 {
     font-family: brandon-grotesque, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
-    font-size: 1.5em;    
+    font-size: 1.15em;    
     color: #58595B;
+    margin: auto;
 }
 
 h2 {
     font-family: brandon-grotesque, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     font-size: 1.5em;    
     color: #58595B;
@@ -194,28 +186,35 @@ h2 {
     text-align: center;
 }
 
-#profile {
-    background-color: white;
+#nav-third {
     font-family: brandon-grotesque, sans-serif;
-    width: 98.75%;
+    font-size: 1.75em;
+    color: #58595B;
+    width: 97.15%;
     display: inline-block;
     text-align: center;
-    color: #58595B;
-    font-size: 1.20em;
-    padding: 2px;    
-}
-  
-#heading {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1.75em;
-    text-align: center;
-    color: #58595B;
     background-color: white;
-    margin-top: -20px;
-}
+    padding: 10px;
+    }
 
+#nav-forth {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.75em;
+    color: #58595B;
+    width: 97.15%;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    }
+    
+#aside {
+	width: 960px;
+	margin: 0 auto;
+    position: relative;
+    }
+
+    
 #left-sidebar {	
     background-color: #D9C2B2;
 	float: left;
@@ -237,7 +236,8 @@ h2 {
 #right-sidebar {	
     background-color: lightgray;
 	float: right;
-	width: 50%;
+    margin-right: 10.35px;
+	width: 49%;
 	height: 400px;
     padding: 10px;
     }
