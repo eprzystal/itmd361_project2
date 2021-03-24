@@ -79,6 +79,10 @@ body {
     padding: 10px;
     }
     
+#graphic-content img {
+    border: 1px solid lightgray;
+}
+    
 .graphic {
     background-color: #D9C2B2;
 }
@@ -127,7 +131,7 @@ body {
     background-color: #D9C2B2;
     padding: 20px;
     margin-top: -10px;
-  }
+}
   
 .environmental p {
     font-family: brandon-grotesque, sans-serif;
@@ -148,7 +152,7 @@ body {
     text-align: center;
     background-color: white;
     padding: 10px;
-    }
+}
     
 .structural {
     background-color: #D9C2B2;
@@ -163,7 +167,7 @@ body {
     background-color: #D9C2B2;
     padding: 20px;
     margin-top: -10px;
-  }
+}
   
 .structural p {
     font-family: brandon-grotesque, sans-serif;
@@ -199,7 +203,7 @@ body {
     background-color: #D9C2B2;
     padding: 20px;
     margin-top: -10px;
-  }
+}
   
 .art-direction p {
     font-family: brandon-grotesque, sans-serif;
@@ -236,7 +240,7 @@ body {
     background-color: #D9C2B2;
     padding: 20px;
     margin-top: -10px;
-  }
+}
   
 .interior-design p {
     font-family: brandon-grotesque, sans-serif;
@@ -249,6 +253,4 @@ body {
     padding: 20px;
     margin-top: -50px;
 }
-
-
 
